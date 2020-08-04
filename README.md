@@ -12,22 +12,16 @@ Step 3.1: Open [Execute T-SQL Statement Task] element by double clicking or righ
 
 Step 3.2: Type the following T-SQL Statement and click OK.
 
+==============================================================================================
 
-
-SQL
-Edit|Remove
 USE [DatabaseName] 
 EXEC IndexesMaintenance [DatabaseName] 
 GO
  
-
-
+==============================================================================================
 Bellow, you can see the code of this  Stored Procedure :
+==============================================================================================
 
-
-
-SQL
-Edit|Remove
 USE [DatabaseName] 
 GO 
  
@@ -96,5 +90,6 @@ AS BEGIN
  
     CLOSE ReBuildCursor 
     DEALLOCATE ReBuildCursor 
+
 END
  
