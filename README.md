@@ -2,6 +2,7 @@
 The following script creates a stored procedure in the database that you want to maintain. The logic of this script is to check index fragmentation and the number of pages. For example, if an index has fragmentation more than 30% and the number of pages is less than 10 then the index reorganized. 
 
 Instructions on how to use Stored Procedure
+
 Step 1:  Create the stored procedure in your database.
 
 Step 2: On Object Explorer - Management - Maintenance Plans, create a new maintenance plan.
